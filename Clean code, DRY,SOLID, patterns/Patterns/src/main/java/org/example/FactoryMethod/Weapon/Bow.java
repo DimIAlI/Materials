@@ -1,6 +1,8 @@
-package org.example.FactoryMethod;
+package org.example.FactoryMethod.Weapon;
 
-public class Bow implements Weapon{
+
+
+public class Bow implements Weapon {
 
     @Override
     public void doDamage() {
