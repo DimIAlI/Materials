@@ -4,7 +4,7 @@ package org.example.Builder.ClassicBuilder.Builder;
  * Класс директор. Именно в нем выбирается,
  * какие поля будут участвовать в сборке и устанавливаться дефолтные значения,
  * если они необходимы.
- * Класс является
+ * Класс является необязательной абстракцией
  */
 
 import org.example.Builder.ClassicBuilder.Burger;
