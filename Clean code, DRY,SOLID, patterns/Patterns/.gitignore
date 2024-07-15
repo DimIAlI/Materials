@@ -1,5 +1,6 @@
 src/main/out/
 src/main/.idea
+src/.idea
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
