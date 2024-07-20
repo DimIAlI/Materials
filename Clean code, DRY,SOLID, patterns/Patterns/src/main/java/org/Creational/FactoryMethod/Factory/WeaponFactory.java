@@ -2,8 +2,8 @@ package org.example.Creational.FactoryMethod.Factory;
 
 import org.example.Creational.FactoryMethod.Weapon.Weapon;
 
-public interface WeaponFactory {
+public abstract class WeaponFactory {
 
-    Weapon initWeapon();
+    public abstract Weapon initWeapon();
 
 }

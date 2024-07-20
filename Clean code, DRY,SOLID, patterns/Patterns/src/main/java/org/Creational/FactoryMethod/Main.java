@@ -3,6 +3,8 @@ package org.example.Creational.FactoryMethod;
 
 import org.example.Creational.FactoryMethod.Factory.BowFactory;
 import org.example.Creational.FactoryMethod.Factory.WeaponFactory;
+import org.example.Creational.FactoryMethod.Weapon.Bow;
+import org.example.Creational.FactoryMethod.Weapon.Sword;
 import org.example.Creational.FactoryMethod.Weapon.Weapon;
 
 public class Main {

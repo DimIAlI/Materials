@@ -1,6 +1,6 @@
 package org.example.Creational.Singleton.Lazy;
 
-public class LazySingleton {
+public final class LazySingleton {
     /*
        Не подходит для многопоточной среды,
        т.к. несколько потоков могут одновременно инициализировать несколько объектов

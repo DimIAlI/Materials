@@ -1,6 +1,6 @@
 package org.example.Creational.FactoryMethod.Weapon;
 
-public interface Weapon {
+public abstract class Weapon {
 
-    void doDamage();
+    public abstract void doDamage();
 }

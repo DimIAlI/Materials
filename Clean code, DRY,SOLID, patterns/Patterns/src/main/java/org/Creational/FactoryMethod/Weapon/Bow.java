@@ -2,7 +2,7 @@ package org.example.Creational.FactoryMethod.Weapon;
 
 
 
-public class Bow implements Weapon {
+public class Bow extends Weapon {
 
     @Override
     public void doDamage() {

@@ -1,6 +1,6 @@
 package org.example.Creational.Singleton.Eager;
 
-public class EagerSingleton {
+public final class EagerSingleton {
     /*
        Заранее инициализируем объект - решает проблему конкурентного доступа
        Теряется ленивая инициализация (объект будет создан во время инициализации класса)
