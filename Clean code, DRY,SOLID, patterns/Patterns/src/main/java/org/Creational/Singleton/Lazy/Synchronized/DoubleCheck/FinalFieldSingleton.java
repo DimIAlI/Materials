@@ -1,6 +1,6 @@
 package org.example.Creational.Singleton.Lazy.Synchronized.DoubleCheck;
 
-public class FinalFieldSingleton {
+public final class FinalFieldSingleton {
    /*
       Объявление поля final также гарантирует отношение happens-before
       (если это сложный объект, то его поля тоже должны быть final)

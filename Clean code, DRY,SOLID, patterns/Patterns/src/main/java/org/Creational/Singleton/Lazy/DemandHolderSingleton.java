@@ -14,9 +14,6 @@ public final class DemandHolderSingleton {
 
     private static class SingletonHolder {
         private static final DemandHolderSingleton INSTANCE = new DemandHolderSingleton();
-    }
 
-    public static DemandHolderSingleton getInstance() {
-        return SingletonHolder.INSTANCE;
     }
 }

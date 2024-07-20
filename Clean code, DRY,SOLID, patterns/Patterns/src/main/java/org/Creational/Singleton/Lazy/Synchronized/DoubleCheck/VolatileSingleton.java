@@ -1,6 +1,6 @@
 package org.example.Creational.Singleton.Lazy.Synchronized.DoubleCheck;
 
-public class VolatileSingleton {
+public final class VolatileSingleton {
     /*
        volatile гарантирует, что все потоки увидят изменения в INSTANCE
        есть проблема с переменной x, так как есть возможность получить INSTANCE.x

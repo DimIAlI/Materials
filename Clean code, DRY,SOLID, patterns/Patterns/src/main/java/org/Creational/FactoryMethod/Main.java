@@ -14,6 +14,5 @@ public class Main {
         WeaponFactory weaponFactory = new BowFactory();
         Weapon weapon = weaponFactory.initWeapon();
         weapon.doDamage();
-
     }
 }

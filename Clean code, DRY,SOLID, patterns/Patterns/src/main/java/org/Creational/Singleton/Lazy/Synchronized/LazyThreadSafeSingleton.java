@@ -1,6 +1,6 @@
 package org.example.Creational.Singleton.Lazy.Synchronized;
 
-public class LazyThreadSafeSingleton {
+public final class LazyThreadSafeSingleton {
    /*
       Решает проблему с конкурентным доступом,
       но synchronized блок нужен только при первой инициализации,

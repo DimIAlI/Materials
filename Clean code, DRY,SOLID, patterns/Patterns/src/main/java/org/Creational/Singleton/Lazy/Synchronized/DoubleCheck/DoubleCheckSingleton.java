@@ -1,6 +1,6 @@
 package org.example.Creational.Singleton.Lazy.Synchronized.DoubleCheck;
 
-public class DoubleCheckSingleton {
+public final class DoubleCheckSingleton {
     /*
        Решена проблема блока synchronized(синхронизация теперь происходит 1 раз),
        но не будет работать из-за оптимизации out-of-order execution.
