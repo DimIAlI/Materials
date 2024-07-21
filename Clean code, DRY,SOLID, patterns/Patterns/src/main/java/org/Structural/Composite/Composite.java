@@ -1,7 +1,6 @@
 package org.example.Structural.Composite;
 
 import org.example.Structural.Composite.Shapes.Shape;
-
 import java.util.ArrayList;
 import java.util.List;
 
