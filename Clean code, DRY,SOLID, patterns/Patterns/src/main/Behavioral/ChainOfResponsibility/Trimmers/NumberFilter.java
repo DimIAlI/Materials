@@ -12,9 +12,6 @@ public class NumberFilter extends StringFilter {
                 builder.append(c);
             }
         }
-        if (next != null) {
-            return next.trim(builder.toString());
-        }
-        return builder.toString();
+        return checkNext(builder.toString());
     }
 }

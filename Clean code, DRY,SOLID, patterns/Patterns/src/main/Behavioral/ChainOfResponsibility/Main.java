@@ -16,7 +16,7 @@ public class Main {
         pointTrimmer.setNext(spaceTrimmer);
 
         String trimmed = numberTrimmer
-                .trim("4. 54.П 2р.32и  .в4. . е 6. т 1 2.");
+                .trim(".5 8T.01h.4 .. is_ .i s _e8 .x405a. 9m124. 123p6le.");
         System.out.println(trimmed);
     }
 }
