@@ -1,6 +1,6 @@
 package org.example.Behavioral.Observer;
 
-public class ConcreteSubscriber implements Subscriber {
+public class ConcreteSubscriber implements Observer {
 
     private String name;
     private String text;

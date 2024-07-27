@@ -3,12 +3,12 @@ package org.example.Behavioral.Observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PageOwner implements Observer {
+public class PageOwner implements Observable {
 
     private int postCounter;
     private String textOfPost;
 
-    private final List<Subscriber> subscribers = new ArrayList<>();
+    private final List<Observer> subscribers = new ArrayList<>();
 
     public void setContext(int postCounter, String textOfPost) {
         this.postCounter = postCounter;
@@ -17,12 +17,12 @@ public class PageOwner implements Observer {
     }
 
     @Override
-    public void addSubscriber(Subscriber subscriber) {
+    public void addSubscriber(Observer subscriber) {
         subscribers.add(subscriber);
     }
 
     @Override
-    public void removeSubscriber(Subscriber subscriber) {
+    public void removeSubscriber(Observer subscriber) {
         subscribers.remove(subscriber);
     }
 
