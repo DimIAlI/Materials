@@ -1,6 +1,7 @@
 package org.example.Behavioral.ChainOfResponsibility.Trimmers;
 
 public class NumberFilter extends StringFilter {
+
     @Override
     public String trim(String str) {
 

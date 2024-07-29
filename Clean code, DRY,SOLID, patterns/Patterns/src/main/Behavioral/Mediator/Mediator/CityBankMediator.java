@@ -6,15 +6,15 @@ import org.example.Behavioral.Mediator.Client.Client;
 
 public class CityBankMediator implements BankMediator {
 
-    Bank bank = new CityBank();
+    Bank cityBank = new CityBank();
 
     @Override
     public void createAccount(Client client) {
-        bank.createAccount(client.getName());
+        cityBank.createAccount(client.getName());
     }
 
     @Override
     public void applyForLoan(Client client) {
-        bank.applyForLoan(client.getName());
+        cityBank.applyForLoan(client.getName());
     }
 }
